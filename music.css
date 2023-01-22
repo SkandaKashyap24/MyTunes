@@ -1,0 +1,312 @@
+:root{
+    --back:white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Brush Script MT', cursive;
+    font-size: small;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+#item{
+    position: relative;
+}
+#navigation{
+    background-color: #eee;
+}
+#nav-item{
+    border: 1px solid black;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    overflow: hidden;
+    display: inline;
+    padding: 8px ;
+    background-color:#333;
+    font-size: 14px;
+    font-weight: lighter;
+    font-weight: 0;
+
+}
+#nav-item a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#nav-item a:hover{
+    background-color: grey;
+}
+.content{
+    background-image:url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid black;
+    width: 100%;
+    height: 750px; 
+    top: 40px;
+}
+
+#top{
+    margin-top: 210px;
+    display: block;
+    color: white;
+    text-align: center; 
+}
+#sec{
+    height: 1100px;
+    width: 100%;
+    background-color:#252529;
+    padding: auto;
+}
+.pei{
+    text-align: center;
+    display: block;
+    padding-top: 45px;
+}
+.pei2{
+    text-align: center;
+}
+.iome{
+    border: 1px solid white;
+    height: 45px;
+    width: 200px;
+    background-color: linen;
+    border-radius:5px ;
+}
+.hello{
+    border: 1px solid transparent;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(245, 63, 63);
+    padding: 15px;
+}
+.pei2 a:hover{
+    background-color: red;
+}
+#middle{
+    width: 100%;
+    height: 1300px;
+    text-align: center;
+    background-color: whitesmoke;
+}.middle2{
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(143, 143, 244);
+    border-radius:5px ;
+    padding: 15px;
+}
+#middle a:hover{
+    background-color: blue;
+}
+#section{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://www.mattnorman.com/wp-content/uploads/2013/02/guitar.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#lol{
+    margin-top: 30px;
+}
+#mid-sec{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#footer{
+    height: 500px;
+    width: 100%;
+}
+#bot-sec{
+    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/sunset-music-andreea-constantinescu.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+    
+}
+.sec3{
+    border: 1px solid black;
+    height: 30px;
+    width: 275px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    
+}
+.hello1{
+    border: 1px solid transparent;
+    height: 0px;
+    width: 85px;
+    background-color:rgb(116, 208, 116);
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+#bot-sec a:hover{
+    background-color: lightgreen;
+}
+.hello2{
+    border: 1px solid transparent;
+    height: 45px;
+    width: 45px;
+    background-color:rgb(207, 67, 67);
+    padding: 15px;
+    border-radius: 35px;
+}
+#bot-sec a:hover{
+    background-color: rgb(228, 10, 10);
+}
+.hello3{
+    border: 1px solid transparent;
+    height: 45px;
+    width: 45px;
+    background-color:rgb(98, 98, 210);
+    padding: 15px;
+    border-radius: 35px;
+}
+#bot-sec a:hover{
+    background-color: blue;
+}
+#footer{
+    background-color: #252529;
+    height: 310px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row; 
+    padding-left:220px ;
+    padding-right: 220px;
+    
+    
+    
+}
+#footer a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: lighter;
+ 
+}
+#footer div{
+    padding: 65px;
+  
+}
+#footer2{
+    height: 50px;
+    width: 100%;
+    background-color: #444445;
+}
+.pool{
+    background-color: #ccc;
+}
+.image{
+    border: 1px solid transparent;
+    height: 650px;
+    width: 80%;
+    background-image: url('https://www.columbiacollege.ca/wp-content/uploads/2019/05/Music.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin: auto;
+}
+.image2{
+    background-image: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/mockup2.png');
+    width: 85%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin-left: 11.7%;
+    
+}
+@media screen and (max-width:580px)
+{
+    .content{
+        
+        width: 100%;
+        height: 650px;
+       
+    }
+    .image{
+        
+        width: 90%;
+       background-size: contain;
+       
+    }
+    #sec{
+        height: 880px;
+    }
+    #middle{
+        height: 1000px;
+        
+    }
+    #top{
+        font-size: smaller;
+    }
+    #middle p{
+        display: block;
+        
+    }
+    #section{
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+       margin:auto;
+       padding: auto;
+       margin-top: -130px;
+       
+    }
+    .section1{
+       margin: auto;
+    }
+    #mid-sec{
+        display: none;
+    }
+    #bot-sec{
+        height: 1400px;
+        width: 100%;
+        margin-top: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    .gift{
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width:1280px){
+    .image2{
+        background-size: contain;
+        margin: auto;
+        height: 100%;
+    }
+    #middle{
+       height: 1050px;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .image2{
+        background-size: contain;
+        margin: auto;
+        height: 100%;
+    }
+    #middle{
+       height: 1050px;
+    }
+    
+}
